@@ -1,0 +1,16 @@
+{
+    "name": "Testing McTester",
+    "personalAccessToken": "",
+    "defaultUri": "https://dev.azure.com/<your org>",
+    "project": {
+        "name": "<your project>",
+        "plan": {
+            "id": 0,
+            "suites": [
+                {
+                    "id": 0
+                }
+            ]
+        }
+    }
+}

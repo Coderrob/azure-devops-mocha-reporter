@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ADO-Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "args": [
+                "--file",
+                "./src/ado.hooks.js",
+                "./src/*[.-]test.js",
+                "--timeout",
+                "0",
+            ],
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+    ]
+}
