@@ -18,7 +18,7 @@
     "sinon": "^7.3.2",
     "chai": "^4.2.0",
     "dotenv": "^7.0.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.2.3"
   },
   "dependencies": {
     "azure-devops-node-api": "^8.0.0",
